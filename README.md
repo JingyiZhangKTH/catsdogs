@@ -1,5 +1,3 @@
-# ML_catsdogs
-
 # Cats vs Dogs Classification Practice
 
 This repository is a hands-on machine learning practice project.
@@ -34,23 +32,17 @@ Before training the traditional machine learning models, the images were resized
 
 For example, a `64 × 64` RGB image contains:
 
-\[
-3 \times 64 \times 64 = 12,288
-\]
+\[3 \times 64 \times 64 = 12,288\]
 
 pixel features.
 
 The image is then flattened into a one-dimensional feature vector:
 
-\[
-\text{image} \rightarrow \text{flattened feature vector}
-\]
+\[\text{image} \rightarrow \text{flattened feature vector}\]
 
 I initially used `256 × 256` images, which resulted in:
 
-\[
-3 \times 256 \times 256 = 196,608
-\]
+\[3 \times 256 \times 256 = 196,608\]
 
 features per image.
 
