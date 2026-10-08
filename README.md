@@ -75,14 +75,12 @@ SVM: cat
 This made it easier to directly compare how different models behave on the same image.
 
 
-```markdown
 ## PCA
 
 I also explored Principal Component Analysis (PCA) as a way to reduce the dimensionality of the image data.
 
 Instead of using thousands of raw pixel features, PCA can compress the feature space:
 
-```text
 12,288 dimensions
         ↓
        PCA
@@ -92,7 +90,6 @@ Instead of using thousands of raw pixel features, PCA can compress the feature s
 This can reduce memory usage and make algorithms such as KNN and SVM more efficient.
 
 
-```markdown
 ## Vision-Language Model
 
 In addition to traditional machine learning, I experimented with a lightweight pretrained Vision-Language Model using Hugging Face Transformers.
@@ -101,7 +98,6 @@ The model receives both an image and a text prompt.
 
 For example:
 
-```text
 Is this a cat or a dog?
 Answer only: cat or dog.
 
@@ -119,7 +115,6 @@ Pretrained Vision-Language Model
 zero-shot image understanding
 
 
-```markdown
 ## Technologies Used
 
 - Python
