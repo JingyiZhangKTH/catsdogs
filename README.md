@@ -32,19 +32,15 @@ Before training the traditional machine learning models, the images were resized
 
 For example, a `64 × 64` RGB image contains:
 
-\[3 \times 64 \times 64 = 12,288\]
-
-pixel features.
+`3 × 64 × 64 = 12,288` pixel features.
 
 The image is then flattened into a one-dimensional feature vector:
 
-\[\text{image} \rightarrow \text{flattened feature vector}\]
+image -> flattened feature vector
 
 I initially used `256 × 256` images, which resulted in:
 
-\[3 \times 256 \times 256 = 196,608\]
-
-features per image.
+`3 × 256 × 256 = 196,608` features per image.
 
 This caused high memory usage, especially for KNN, because KNN calculates distances between samples.
 
